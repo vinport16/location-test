@@ -6,6 +6,8 @@ var io = sio(http);
 var port = process.env.PORT || 8080;
 http.listen(port);
 
+console.log("we out here on port #"+port);
+
 app.get('/', function(req, res){ //when someone connects initially, send the index
   res.sendFile(__dirname + '/index.html');
 });

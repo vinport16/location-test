@@ -4,12 +4,18 @@
   "description": "let's see what I can do with location in a mobile browser",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node index.js"
   },
   "keywords": [
     "location",
     "mobile"
   ],
   "author": "Vincent Portelli",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "socket.io": "^2.1.0"
+  }
 }
